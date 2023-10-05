@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Hernani - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .project {
+            text-align: center;
+            margin: 20px;
+            max-width: 300px;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .project h3,
+        .project p {
+            margin-top: 10px;
+        }
+
+        .projects-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .about-image img {
+            max-width: 75%;
+            height: auto;
+            border-radius: 75%;
+        }
+
+        .contact-icons a {
+            text-decoration: none;
+        }
+
+        .contact-icons img {
+            max-width: 50px;
+            height: auto;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Carlos Hernani</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hi, I’m Carlos Hernani, I’m a Computer Science Student at Insper-SP, with focus in front-end developing and a designer enthusiastic. Let’s work together? </p>
+                </div>
+                <div class="about-image">
+                    <img src="your_image_path.jpg" alt="Carlos Hernani">
+                </div>
+            </div>
+        </section>
+        <section id="work">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>DevLife-Individual Project</h3>
+                    <img src="project1.jpg" alt="Project 1">
+                    <p>RPG made with python</p>
+                </div>
+                <div class="project">
+                    <h3>The Creator™</h3>
+                    <img src="project2.jpg" alt="Project 2">
+                    <p>My clothing brand</p>
+                </div>
+                <div class="project">
+                    <h3>My songs</h3>
+                    <img src="project3.jpg" alt="Project 3">
+                    <p>Songs written by me</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-icons">
+                <a href="mailto:curiosits@gmail.com"><img src="email_icon.png" alt="Email"></a>
+                <a href="https://www.linkedin.com/in/carloshernani/"><img src="linkedin_icon.png" alt="LinkedIn"></a>
+                <a href="https://github.com/carloshernani-CH"><img src="github_icon.png" alt="GitHub"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Carlos Hernani. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
